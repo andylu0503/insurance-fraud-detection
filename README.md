@@ -36,5 +36,5 @@ insurance-fraud-detection/
 ## 🧑 About Me
 
 This project is part of my data analyst portfolio to demonstrate real-world analysis and model building.  
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com).
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/po-hua-lu-0b3955342/).
 

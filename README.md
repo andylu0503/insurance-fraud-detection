@@ -1,36 +1,56 @@
-# 🛡️ Insurance Fraud Detection Project
+# 🛡️ Insurance Fraud Detection - Portfolio Project
 
-This project focuses on identifying potential insurance fraud using customer and claim data. It applies machine learning classification models to predict whether a given insurance claim is likely to be fraudulent.
+A machine learning model that predicts fraudulent insurance claims using Python and Random Forest.
 
-## 📊 Dataset
+---
 
-The dataset includes:
-- Policy and customer demographics
-- Vehicle and property claim details
-- Incident severity, location, and police report availability
-- Target variable: `fraud_reported` (Y/N)
+## 📊 Overview
+This project demonstrates a complete data analysis pipeline to identify potential insurance fraud based on customer and claim data.
 
-## 🧪 Tools & Technologies
+- Data cleaning & preprocessing
+- Feature encoding
+- Model building with Random Forest
+- Model evaluation (confusion matrix, ROC AUC)
+- Feature importance visualization
 
-- Python: Pandas, Scikit-learn, Matplotlib, Seaborn
-- Jupyter Notebook (Google Colab)
-- Machine Learning: Random Forest, Logistic Regression
-- Metrics: Confusion Matrix, Precision, Recall, F1 Score, ROC AUC
+---
 
-## 🔍 Key Insights
+## 🔧 Tools Used
+- Python
+- Google Colab
+- pandas, matplotlib, seaborn
+- scikit-learn
 
-- `incident_severity` is the top feature influencing fraud detection.
-- `insured_hobbies` and claim amounts also impact fraud likelihood.
-- ML models can improve early fraud detection significantly.
+---
 
-## 📈 Project Structure
+## 📂 Dataset Info
+The dataset contains:
+- Customer & policy info
+- Incident details
+- Auto info
+- Target: `fraud_reported` (Y/N)
 
-insurance-fraud-detection/
-├── data/
-│ └── insurance.csv
-├── notebook/
-│ └── fraud_detection.ipynb
-├── README.md
+---
+
+## 📈 Model Result
+- Accuracy: ~74%
+- ROC AUC: **0.81**
+- Confusion matrix & classification report included
+
+---
+
+## 📌 Key Features
+- 🔍 Fraud detection using supervised learning
+- ✅ Realistic end-to-end ML workflow
+- 📚 Great for interview discussion
+
+---
+
+## 📎 Files Included
+fraud-detection/
+├── insurance.csv
+├── fraud_detection.ipynb
+└── README.md
 
 
 ## 🧑 About Me
